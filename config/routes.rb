@@ -1,4 +1,6 @@
 App4Andy::Application.routes.draw do
+  devise_for :users
+
   get 'terms' => 'pages#Terms'
 
 
