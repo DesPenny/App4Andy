@@ -1,4 +1,6 @@
 App4Andy::Application.routes.draw do
+  devise_for :views
+
   resources :notes
 
 
