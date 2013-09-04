@@ -30,9 +30,13 @@ GEM
       multi_json (~> 1.0)
     arel (3.0.2)
     bcrypt-ruby (3.1.1)
+    best_in_place (2.1.0)
+      jquery-rails
+      rails (~> 3.1)
     bootstrap-sass (2.2.2.0)
       sass (~> 3.2)
     builder (3.0.4)
+    cancan (1.6.10)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -88,6 +92,7 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    role_model (0.8.1)
     sass (3.2.10)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -118,12 +123,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  best_in_place
   bootstrap-sass (~> 2.2.2.0)
+  cancan
   coffee-rails (~> 3.2.1)
   devise
   jquery-rails
   pg
   rails (= 3.2.9)
+  role_model
   sass-rails (~> 3.2.3)
   simple_form
   sqlite3

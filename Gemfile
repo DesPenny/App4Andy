@@ -26,6 +26,9 @@ end
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
+gem 'cancan'
+gem 'role_model'
+gem 'best_in_place'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
